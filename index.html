@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <form action="">
+      <div class="form-group">
+      <label for="">Search</label>
+      <input value="" class="form-control" placeholder="Search" id="search_input">
+      </div>
+    </form>
+  </div>
+    <div class="table-responsive" id="tableDiv"> 
+    <table class="table" id="tableId">
+      <thead class="small">  
+        <tr>
+       <th>Tittle</th> 
+       <th>Author</th>  
+       <th>Genre</th> 
+       <th>Rent Movies</th> 
+        </tr>  
+      </thead>
+      <tbody id="tBody">
+
+      </tbody>
+    
+</table>
+   </div>
+
+   <div class="containers">
+     <button type="button" class="btn btn-success" id="btn" onclick="returnAllRented()"> Return Rented Movies</button>
+   </div>
+   
+   <script src="index.js"></script>
+</body>
+
+</html>
